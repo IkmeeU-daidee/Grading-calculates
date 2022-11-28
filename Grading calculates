@@ -1,0 +1,17 @@
+number = int(input("Enter the numeric grade: "))
+if number > 95:
+  letter = 'A+'
+elif number > 89:
+  letter = 'A'
+elif number > 79:
+    letter = 'B'
+elif number > 69:
+  letter = 'c'
+else:
+  letter = 'F'
+print("The letter grade is %6s" % letter)
+
+#additional spaces for a datum in a formatted string by using >>> "%6s" % "four"
+#for int use by "%6d" % "34"
+#for float use by "%6f" % "34.00"
+
